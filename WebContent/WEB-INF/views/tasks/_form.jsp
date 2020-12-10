@@ -9,12 +9,9 @@
 
     </div>
 </c:if>
-<label for="title">タイトル</label><br />
-<input type="text" name="title" value="${message.title}" />
-<br /><br />
 
 <label for="content">メッセージ</label><br />
-<input type="text" name="content" value="${message.content}" />
+<input type="text" name="content" value="${task.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
